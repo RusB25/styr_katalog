@@ -1,11 +1,25 @@
 {
     "cSpell.words": [
+        "Ändavslutning",
+        "anslutaren",
+        "Anybus",
         "Codesys",
         "driftsättning",
+        "intesis",
         "Larmia",
         "lightgray",
+        "MIVO",
         "Modbus",
-        "siox"
+        "Modbushjälparen",
+        "modbusregister",
+        "netlink",
+        "Piigab",
+        "rumsreglering",
+        "rumsregulator",
+        "siox",
+        "vacon",
+        "webp",
+        "Westermo"
     ],
     "cSpell.language": "en,sv-SE"
 }
