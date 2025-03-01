@@ -12,6 +12,6 @@ def open_excel_file(file_path):
 
 
 # Example usage
-file_path = "/Users/ruslan/Developer/Python_projects/styr_katalog/files/W17_setup.xlsm"
+file_path = "files/W17_setup.xlsm"
 if st.button("Open Excel File"):
     open_excel_file(file_path)
