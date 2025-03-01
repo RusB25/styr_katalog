@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Trådlös Proxima basstation WBU",
+        "group": "Produal",
+        "image": "images/WBU.webp",
+        "description": "WBU är en basstation för Produal Proxima® MESH trådlösa nätverkstransmittrar och ingångsmoduler. Transmitter informationen kan läsas via Modbus eller genom de 6 analoga utgångarna. Basenheten stöder Modbus RTU och Modbus TCP.",
+        "ip_address": "192.168.1.1",
+        "file": "files/WBU_sv.pdf",
+        "link": "https://www.produal.com/sv/wbu.html"
+    },
+    {
+        "name": "Proxima reglerenhet CU",
+        "group": "Produal",
+        "image": "images/produal_cu.png",
+        "description": "Produal Proxima® CU är en multifunktionell reglerenhet för en mängd olika applikationer som t.ex. rumsreglering och zonreglering.",
+        "ip_address": "192.168.1.1",
+        "file": "files/CU.pdf",
+        "link": "https://www.produal.com/sv/cu.html"
+    },
+    {
+        "name": "Proxima reglerenhet CU-LH",
+        "group": "Produal",
+        "image": "images/cu_lh.png",
+        "description": "Produal Proxima® CU-LH-MOD är särskilt avsedd för mer avancerade rums- och zonregleringsapplikationer som kräver fler funktioner än vanliga regulatorer. Reglerenheten stöder följande kommunikationsprotokollet Modbus RTU.",
+        "file": "files/CU-LH.pdf",
+        "link": "https://www.produal.com/sv/cu-lh.html"
+    },
+    {
+        "name": "C221",
+        "group": "Produal",
+        "image": "images/c221.png",
+        "description": "C221 är en mångsidig reglerenhet som är specifikt avsedd för applikationer som reglerar temperatur i enskilda rum och för VAV- och zonreglering. Genom RS-485-anslutaren kan man ansluta reglerenheten till alla system som stöder Modbus RTU-protokoll. Bus-enheten är galvaniskt isolerad från regulatorns övriga elektronik. Ändavslutning och polarisation för buss är inbyggda och kan aktiveras med DIP-omkopplare.",
+        "file": "files/C221.pdf",
+        "link": "https://www.produal.com/sv/sku-1155050.html"
+    },
+    {
+        "name": "HLS 44-CO2",
+        "group": "Produal",
+        "image": "images/hls44.png",
+        "description": "HLS 44-CO2 är en mångsidig rumsregulator för temperaturen i enskilda rum och för regleringstillämpningar vad beträffar variabel luftvolym (VAV). Regulatorn har en inbyggd CO₂-givare.",
+        "file": "files/HLS44-CO2.pdf",
+        "link": "https://www.produal.com/sv/hls-44-co2.html"
+    },
+    {
+        "name": "CMe3100 M-Bus Metering Gateway för fast nätverk",
+        "group": "M-Bus",
+        "image": "images/cme3100.jpeg",
+        "description": "CMe3100 är en M-Bus Metering Gateway för fast nätverk som läser upp till 512 mätare, sammanställer mätdata i anpassade rapporter och levererar den till ett mottagande system enligt ett valt schema och integrationsprotokoll via det fasta nätverket.",
+        "ip_address": "169.254.254.1",
+        "login": "admin",
+        "password": "admin",
+        "file": "files/CMe3100_Data_Sheet.pdf",
+        "link": "https://www.elvaco.com/sv/product/infrastructure/cme3100-m-bus-metering-gateway-for-fast-natverk--CMe3100"
+    },
+    {
+        "name": "CMe3000 M-Bus Gateway för fast nätverk",
+        "group": "M-Bus",
+        "image": "images/cme3000.jpeg",
+        "description": "CMe3100 är en M-Bus Metering Gateway för fast nätverk som läser upp till 512 mätare, sammanställer mätdata i anpassade rapporter och levererar den till ett mottagande system enligt ett valt schema och integrationsprotokoll via det fasta nätverket.",
+        "ip_address": "192.168.0.10",
+        "login": "admin",
+        "password": "admin",
+        "file": "files/CMe3000_Data_Sheet.pdf",
+        "link": "https://www.elvaco.com/sv/product/infrastructure1/cme3000-m-bus-gateway-for-fast-natverk--1050015"
+    },
+    {
+        "name": "PiiGAB 900S",
+        "group": "M-Bus",
+        "image": "images/M_Bus_900S.png",
+        "description": "PiiGAB M-Bus 900S är en transparent M-Bus omvandlare avsedd för fjärravläsning av M-Bus mätare med upp till fyra klienter samtidigt. Du kan fjärravläsa via lokala nätverk, stadsnät, internet, vanlig seriell kommunikation eller via en redan befintlig M-Bus master. Du kan även ansluta Modbus-klienter parallellt för att läsa in värden från M-Bus mätare till PLC/DUC eller visa en lokal display.",
+        "ip_address": "Random between 192.168.10.3 - 192.168.10.253",
+        "login": "Admin",
+        "password": "Admin",
+        "file": "files/PiiGAB_900S.pdf",
+        "link": "https://www.piigab.com/product/piigab-m-bus-900s-m-bus-omvandlare/"
+    },
+        {
+        "name": "PiiGAB 810",
+        "group": "M-Bus",
+        "image": "images/Piigab_810.png",
+        "description": "PiiGAB 810 är en omvandlare avsedd för fjärravläsning av M-Bus mätare via lokala nätverk, stadsnät eller internet. PiiGAB M-Bus 810 har anslutning för både Ethernet och seriell kommunikation.",
+        "file": "files/PiiGAB-M-Bus-810.pdf",
+        "link": "https://www.piigab.com/product/piigab-m-bus-810-m-bus-omvandlare/"
+    },
+    {
+        "name": "Modbus RTU to Modbus TCP Router",
+        "group": "Modbus",
+        "image": "images/intesis_modbus.png",
+        "description": "Integrate devices in a Modbus RTU network with a Modbus TCP network transparently with our compact Modbus Router. This integration aims to make Modbus RTU devices, registers, and resources accessible to a Modbus TCP client BMS or controller.",
+        "ip_address": "192.168.100.246",
+        "password": "admin",
+        "file": "files/intesis_modbus.pdf",
+        "link": "https://www.intesis.com/products/protocol-translator/modbus-gateways/modbus-rtu-tcp-router-ibox-mbs-router?ordercode=INMBSRTR0320000"
+    },
+    {
+        "name": "Larmia C-Port",
+        "group": "Modbus",
+        "image": "images/c_port.png",
+        "description": "RS485 till Ethernet Omvandlare",
+        "ip_address": "192.168.1.200 eller vid fabriksåterställning sätts till 192.168.1.254",
+        "file": "files/DRIFTSÄTTNING _C_PORT.pdf"
+    },
+    {
+        "name": "4Next",
+        "group": "Modbus",
+        "image": "images/MDB-E-23.png",
+        "description": "MDB-E works independently from the protocol by connecting all the protocols based on TCP / IP with the serial ones in a completely transparent way. This simplifies the configuration and installation of the bridge.",
+        "ip_address": "192.168.1.101",
+        "login": "admin",
+        "password": "admin",
+        "file": "files/MDB-E_4next.pdf",
+        "link": "https://www.4next.eu/en/prodotto/ethernet-serial-converter/#"
+    },
+    {
+        "name": "Westermo EDW-100",
+        "group": "Modbus",
+        "image": "images/edw100.jpg",
+        "description": "The EDW-100 is a serial to Ethernet converter designed to allow RS-232, RS-422 and RS-485 serial devices to communicate via TCP/IP Ethernet networks. DIP switches are used for configuration of RS-422/485 as well as for Ethernet port settings; the password protected web interface is used for all other settings. Diagnostic information can be accessed via a Telnet session with more basic information offered on LEDs.",
+        "ip_address": "169.254.100.100",
+        "login": "edw100",
+        "password": "edw100",
+        "file": "files/edw100.pdf"
+    },
+    {
+        "name": "Anybus",
+        "group": "Modbus",
+        "image": "images/anybus.webp",
+        "description": "With the Anybus Modbus gateway, you can connect Modbus RTU devices to Modbus-TCP networks. The gateway works as a translator (router) between the two networks allowing up to 32 Modbus RTU devices to be connected to a Modbus-TCP network.",
+        "ip_address": "DHCP",
+        "password": "admin",
+        "file": "files/anybus.pdf"
+    },
+    {
+        "name": "Moxa",
+        "group": "Modbus",
+        "image": "images/moxa.jpg",
+        "description": "The MB3180, MB3280, and MB3480 are standard Modbus gateways that convert between Modbus TCP and Modbus RTU/ASCII protocols. Up to 16 simultaneous Modbus TCP masters are supported, with up to 31 RTU/ASCII slaves per serial port. For RTU/ASCII masters, up to 32 TCP slaves are supported. Routing through the serial ports can be controlled by IP address, TCP port number, or ID mapping. Serial-port routing by TCP port and IP address allows access for up to 4 TCP clients/masters (MB3280/MB3480 models), while routing by ID mapping allows access for up to 16 TCP clients/masters (MB3180/MB3280/MB3480).",
+        "ip_address": "192.168.127.254",
+        "login": "admin",
+        "password": "moxa",
+        "link": "https://www.moxa.com/en/products/industrial-edge-connectivity/protocol-gateways/modbus-tcp-gateways/mgate-mb3180-mb3280-mb3480-series"
+    },
+    {
+        "name": "SIOX",
+        "group": "SIOX",
+        "image": "images/siox_logo.png",
+        "description": "Här hittar du information om våra produkter inom segmentet Smoke Control System.",
+        "link": "https://www.sioxsolutions.se/smoke-control-system-produkter/"
+    },
+    {
+        "name": "SX:NETLINK (ES3)",
+        "group": "SIOX",
+        "image": "images/sx_netlink.png",
+        "description": "Den tredje generationens SX:NETLINK erbjuder inte bara styrning av SIOX-moduler via Modbus TCP. Nu kan du även styra modbus-slavar tack vare Modbus RTU. Det finns även möjlighet att styra SIOX-moduler via Modbus RTU. Förutom detta har bättre LED-indikering, enkelt åtkomliga knappar, samt många mjukvaruförbättringar införts. Detta dokument samlar endast det viktigaste i form av inkopplings och inställningsanvisning samt lite grundläggande information. Behövs mer information hänvisar vi till modulens manual.",
+        "ip_address": "192.168.0.234",
+        "file": "files/sx_netlink.pdf"
+    },
+    {
+        "name": "SX:UNO DUO",
+        "group": "SIOX",
+        "image": "images/sx_uno.png",
+        "description": "SX:UNO/DUO är vår standardmodul när det kommer till brandspjälls styrning och finns tillgänglig i två varianter. SX:UNO har kanal 1 tillgänglig för inkoppling av ett spjäll, medan SX:DUO ger möjlighet till inkoppling av två spjäll i separata kanaler.",
+        "file": "files/SX_UNO_DUO.pdf"
+    },
+    {
+        "name": "Installationsvägledning",
+        "group": "SIOX",
+        "image": "images/siox_installation_logo.png",
+        "description": "Installationsvägledningen är den centrala handlingen i vårt system. Syftet är att ni som kund skall kunna planera och driftsätta hela anläggningen endast med hjälp av detta dokument. Installationsvägledningen innehåller även felsökningshjälp och ger en god överblick av hela systemet.",
+        "file": "files/siox_installation.pdf"
+    },
+    {
+        "name": "SIOX Modbushjälparen",
+        "group": "SIOX",
+        "image": "images/siox_modbushjälparen.png",
+        "description": "Letar du efter en Modbus-lista? Med modbushjälparen fär du smidigt en tabell över valfri moduls modbusregister.",
+        "link": "https://www.sioxsolutions.se/modbus-helper/"
+    },
+    {
+        "name": "ED10 Handbook",
+        "group": "Larmia",
+        "image": "images/ed10.jpg",
+        "description": "ED10 är Larmia Controls verktyg för att programmera SCADA-systemet Atlantis med tillhörande PLC:er LS920, Avalon och LS600.",
+        "file": "files/ED10.pdf"
+    },
+    {
+        "name": "EVO SCADA",
+        "group": "Larmia",
+        "image": "images/larmia_control_ab_logo.jpeg",
+        "description": "Larmia Evo är ett öppet och komplett SCADA-system för automation, process­övervakning och funktions­styrning. Systemet omfattar alla funktionsnivåer. Som överordnat system, på informations-, automations- och fältnivå.",
+        "file": "files/Installationsanvisning_Evo_SCADA.pdf"
+    },
+    {
+        "name": "SLÅ IHOP ANLÄGGNINGAR",
+        "group": "Larmia",
+        "image": "images/larmia_control_ab_logo.jpeg",
+        "description": "Detta dokument beskriver hur man gör och bör tänka på när man slår ihop 2st anläggningar som varit i drift. Vid kopiering kopieras editering, bilder, anteckningar, trendkurvor och händelselistor.",
+        "file": "files/Slå_ihop_anläggningar.pdf"
+    },
+    {
+        "name": "W17 DRIFTSÄTTNING",
+        "group": "Larmia",
+        "image": "images/Avalon-W17_PLC_s.png",
+        "description": "DRIFTSÄTTNING INSTRUKTION AVALON ONE & W17",
+        "file": "files/Avalon W17 - Driftsättningsinstruktion.pdf"
+    },
+    {
+        "name": "MIVO CONNECT DRIFTSÄTTNING",
+        "group": "Larmia",
+        "image": "images/mivo.png",
+        "description": "DRIFTSÄTTNING INSTRUKTION MIVO CONNECT.",
+        "file": "files/DRIFTSÄTTNING - MIVO Connect.pdf"
+    },
+    {
+        "name": "Carbon I/O",
+        "group": "Larmia",
+        "image": "images/carbon.png",
+        "description": "Larmia Carbon är en produktsvit med sex olika I/O-moduler för placering på DIN-skena. Varje modul har 8 in- eller utgångar (4 för Analoga ut) med en indikeringsdiod för varje in-eller utgång som visar analog respektive digital status. Carbon-modulerna kommunicerar enligt Modbus-standard över galvaniskt isolerad RS485, vilket gör att de även kan användas som distribuerade I/O i ett Evo Avalon-system.",
+        "file": "files/Larmia_Carbon_IO_system_v2.pdf"
+    },
+    {
+        "name": "Äldre system",
+        "group": "Larmia",
+        "image": "images/larmia_old.png",
+        "description": "Här hittar du information om äldre produkter som fortfarande faller inom ramen för service- och reparations­program. Samtliga system är kompatibla med Larmias Evo SCADA.",
+        "link": "https://larmia.se/aldre-produkter/"
+    },
+    {
+        "name": "VACON® 100 FLOW",
+        "group": "Frekvensomriktare",
+        "image": "images/vacon-100-flow.jpg",
+        "description": "VACON® 100 FLOW är en frekvensomriktare där fokus ligger på att förbättra flödesregleringen och spara energi i industriella pump- och fläkttillämpningar.",
+        "link": "https://www.danfoss.com/sv-se/products/dds/low-voltage-drives/vacon-drives/vacon-100-flow/"
+    },
+    {
+        "name": "VLT® AutomationDrive FC 301/FC 302",
+        "group": "Frekvensomriktare",
+        "image": "images/vlt_301_fc302.jpg",
+        "description": "Den här tåliga frekvensomriktaren är skapad för att hålla och ger en effektiv och tillförlitlig drift även vid krävande tillämpningar och i tuffa miljöer. I VLT® AutomationDrive används allt som den nya digitala eran kan erbjuda, och den uppfyller därmed alla krav i dina tillämpningar och optimerar dina processer under hela livscykeln. Den avancerade värmekonstruktionen och det unika returkylsystemet gör att VLT® AutomationDrive är en av de mest kompakta och kostnadseffektiva frekvensomriktarna på marknaden. Genom att underhålla och övervaka systemen förbättras produktiviteten, prestandan och drifttiden på lång sikt.",
+        "link": "https://www.danfoss.com/sv-se/products/dds/low-voltage-drives/vlt-drives/vlt-automationdrive-fc-301-fc-302/#tab-overview"
+    }
+]
