@@ -21,6 +21,16 @@ st.set_page_config(page_title="Product Catalog", layout="wide")
 data = load_products()
 
 # Sidebar Filters
+st.sidebar.markdown(
+    """
+    <style>
+        .sidebar .sidebar-content {
+            background-color: #f0f2f6;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.sidebar.title("Filter Products")
 group_filter = st.sidebar.selectbox(
     "Filter by Group", ["All"] + sorted(set(p["group"] for p in data))
@@ -48,7 +58,10 @@ st.title("Product Catalog")
 for group, products in grouped_products.items():
     with st.expander(group, expanded=False):
         for product in products:
-            st.subheader(product["name"])
+            st.markdown(
+                f"<h3 style='color: #2196F3;'>{product['name']}</h3>",
+                unsafe_allow_html=True,
+            )
             col1, col2 = st.columns([1, 2])
             with col1:
                 st.image(product["image"], use_container_width=True)
@@ -74,8 +87,9 @@ for group, products in grouped_products.items():
                         st.error(f"File {product['file']} not found.")
                 if "link" in product:
                     st.markdown(f"[Läs mer]({product['link']})")
-            st.markdown("---")  # Add a horizontal divider between products
-
+            st.markdown(
+                "<hr style='border: 1px solid #2196F3;'>", unsafe_allow_html=True
+            )  # Add a colored horizontal divider between products
 
 # Add author information and bug report link at the bottom
 st.markdown(
