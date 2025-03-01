@@ -2,7 +2,7 @@ import streamlit as st
 from data.default_todos import default_todos
 
 # Set page configuration
-st.set_page_config(page_title="W17 driftsättning", layout="wide")
+# st.set_page_config(page_title="W17 driftsättning", layout="wide")
 
 # Initialize session state for each todo if not already set
 for group, todos in default_todos.items():

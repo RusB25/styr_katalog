@@ -76,7 +76,8 @@ for group, products in grouped_products.items():
                     st.markdown(f"[Läs mer]({product['link']})")
             st.markdown("---")  # Add a horizontal divider between products
 
-# Add author information at the bottom
+
+# Add author information and bug report link at the bottom
 st.markdown(
     """
     <style>
@@ -90,10 +91,11 @@ st.markdown(
             padding: 10px;
             font-size: 14px;
             color: #333;
+            z-index: 1000;
         }
     </style>
     <div class="footer">
-        Created by Ruslan Bagirov © 2025
+        Created by Ruslan Bagirov © 2025 | <a href="mailto:ruslan861125@gmail.com?subject=Bug Report">Report a Bug</a>
     </div>
     """,
     unsafe_allow_html=True,
